@@ -31,6 +31,7 @@ figcaption{text-align:center;font-style:italic;color:var(--muted);padding-top:9p
 .eyebrow{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
 h2{font-weight:400;margin:7px 0 15px}
 audio{max-width:100%}
+.top-voice{text-align:center;margin:4px auto 22px;position:relative;z-index:2}.top-voice audio{width:min(520px,100%)}
 .note{text-align:center;font-style:italic;color:var(--muted);font-size:18px;margin:34px 0}
 .heart{text-align:center;font-size:28px}
 .individual{margin:30px auto;max-width:720px}
@@ -43,6 +44,9 @@ footer{text-align:center;color:var(--muted);padding-top:30px;font-style:italic}
 </head>
 <body>
 <div class="page"><div class="inner">
+<section class="top-voice">
+  <audio controls preload="metadata" src="voice_07.mp3"></audio>
+</section>
 <header>
   <div class="kicker">для нас</div>
   <h1>Наши маленькие моменты</h1>
@@ -57,6 +61,7 @@ footer{text-align:center;color:var(--muted);padding-top:30px;font-style:italic}
 <figure><img src="photo_06.jpg" loading="lazy" alt="Наш момент 6"><figcaption>момент 6</figcaption></figure>
 <figure><img src="photo_07.jpg" loading="lazy" alt="Наш момент 7"><figcaption>момент 7</figcaption></figure>
 <figure><img src="photo_08.jpg" loading="lazy" alt="Наш момент 8"><figcaption>момент 8</figcaption></figure></section>
+
     <section class="voice">
       <div class="voice-icon">♡</div>
       <div>
@@ -65,6 +70,7 @@ footer{text-align:center;color:var(--muted);padding-top:30px;font-style:italic}
         <audio controls preload="metadata" src="our_voice_messages.mp3"></audio>
       </div>
     </section>
+    
 <div class="note">Некоторые моменты лучше не просто помнить,<br>а иногда снова проживать.</div>
 <div class="heart">♡</div>
 <section class="individual">
@@ -75,4 +81,9 @@ footer{text-align:center;color:var(--muted);padding-top:30px;font-style:italic}
 <li><span>голосовое 4</span><audio controls preload="none" src="voice_04.ogg"></audio></li>
 <li><span>голосовое 5</span><audio controls preload="none" src="voice_05.ogg"></audio></li>
 <li><span>голосовое 6</span><audio controls preload="none" src="voice_06.ogg"></audio></li>
-<li><span>голосовое 7</span><audio controls preload="none" src="voice_07.mp3"></audio></li></ul>
+</ul>
+</section>
+<footer>Ты + Я = ∞</footer>
+</div></div>
+</body>
+</html>
