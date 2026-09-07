@@ -1,0 +1,7 @@
+file '/mnt/data/love_page_ready/assets/voice_01.ogg'
+file '/mnt/data/love_page_ready/assets/voice_02.ogg'
+file '/mnt/data/love_page_ready/assets/voice_03.ogg'
+file '/mnt/data/love_page_ready/assets/voice_04.ogg'
+file '/mnt/data/love_page_ready/assets/voice_05.ogg'
+file '/mnt/data/love_page_ready/assets/voice_06.ogg'
+file '/mnt/data/love_page_ready/assets/voice_07.mp3'
